@@ -1,0 +1,127 @@
+.header{
+  background-image: url("img/indoor_houseplants_slide-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  padding: 10em;
+  color: white;
+  text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+    background-color: #064a31;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }  
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    background-color: antiquewhite;
+}
+
+/* Home Page */
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.body-img{
+  width: 500px; 
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.body-text{
+  font-weight: bold;
+  font-size: 20px;
+  font-style: oblique;
+  padding-left: 15px;
+  text-shadow: 2px 2px 5px #064a31;
+}
+
+.container-2{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.img {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/*Explore Page*/
+#plantInput{
+  margin: 10px;
+}
+
+#plantDetails{
+  margin: 10px;
+  font-weight: bold;
+}
+
+.plantInfo{
+  background: linear-gradient(180deg, rgb(77, 15, 15), antiquewhite);
+  padding: 50px;
+  box-shadow: 2px 2px 5px black;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#plantPic{
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#plantDetails{
+  display: flex;
+}
+
+/*My Plants Page*/
+#plantsTable, caption, th, td{
+  border: solid 2px;
+  border-collapse: collapse;
+  margin: 20px;
+  padding: 6px;
+}
+
+.updateInfo{
+  font-size: 25px;
+  font-style: italic;
+  padding-left: 100px;
+  text-shadow: 2px 2px 5px #064a31;
+}
+
+.footer{
+  color: white;
+  background-color: #064a31;
+  padding: 5px;
+  margin-top: 200px;
+}
+

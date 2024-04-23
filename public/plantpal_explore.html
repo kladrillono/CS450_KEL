@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="plantpal.css" />
+        <title>PlantPal</title>
+    </head>
+    <body>
+        <header class="header">
+            <p class="header-text">
+                <h1 class="">PlantPal</h1>
+            </p>
+        </header>
+        <main class="main">
+            <div class="navbar">
+                <a class="active" href="plantpal.html">Home</a>
+                <a href="plantpal_explore.html">Explore</a>
+                <a href="plantpal_myplants.html">See My Plants</a>
+            </div>
+        </main>
+        <div>
+            <p>Start by entering any plant name.</p>
+        </div>
+        <form id="plantForm">
+            <input type="text" id="plantInput" placeholder="Enter plant name">
+            <button type="submit" onclick="getPlants()">Get Plant</button>
+        </form>
+        <div class="plantInfo">
+            <div id="plantImage">
+                <img src="" alt="Plant Image" id="plantPic" style="display: none">
+            </div>
+            <div id="plantDetails">
+            </div>
+            <button id="addPlantBtn" onclick="addPlants()" style="display: none">Add This Plant</button>
+        </div>
+        <script src="plantpalscript.js"></script>
+    </body>
+</html>

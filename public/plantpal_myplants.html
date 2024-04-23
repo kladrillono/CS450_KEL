@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="plantpal.css" />
+        <title>PlantPal</title>
+    </head>
+    <body>
+        <header class="header">
+            <p class="header-text">
+                <h1 class="">PlantPal</h1>
+            </p>
+        </header>
+        <main class="main">
+            <div class="navbar">
+                <a class="active" href="plantpal.html">Home</a>
+                <a href="plantpal_explore.html">Explore</a>
+                <a href="plantpal_myplants.html">See My Plants</a>
+            </div>
+            <table id="plantsTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Last Watering Date</th>
+                        <th>Next Watering Date</th>
+                    </tr>
+                </thead>
+                <tbody id="plantsTableBody">
+                </tbody>
+            </table>         
+            <div class="updateInfo">
+                <p>
+                    Did you water any of these plants today?
+                    <br>
+                    If so, please enter the name:
+                    <br>
+                    <input type="text" id="wateredPlants" placeholder="Enter plant name">
+                    <button type="enter" onclick="updateDate()">Enter</button>
+                </p>
+            </div>     
+        </main>
+        <script src="plantpalscript.js"></script>
+    </body>
+</html>
